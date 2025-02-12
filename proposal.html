@@ -91,38 +91,11 @@
   </div>
   <div>
     <form action="https://formsubmit.co/innobotomani@gmail.com.com" method="POST">
-    // input type="text" name="name" placeholder="Your Name" required>
     <textarea name="message" placeholder="Your sweet message..." required></textarea>
     <button type="submit">Send Email</button>
   </form>
 </div>
  
-  
-  //script>
-      function openPopup() {
-          document.getElementById("popup").style.display = "block";
-          document.getElementById("overlay").style.display = "block";
-      }
-
-      function closePopup() {
-          document.getElementById("popup").style.display = "none";
-          document.getElementById("overlay").style.display = "none";
-      }
-
-      function sendEmail() {
-          let name = document.getElementById("Stacey").value;
-          let message = document.getElementById("message").value;
-          let recipient = "innobotomani@gmail.com";  // Change this to your email
-
-          if (name && message) {
-              let subject = encodeURIComponent(`A Love Note from ${Stacey}`);
-              let body = encodeURIComponent(message);
-              window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
-          } else {
-              alert("Please fill in all fields!");
-          }
-      }
-  /script>//
 
 </body>
 
