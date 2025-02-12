@@ -102,12 +102,12 @@
       }
 
       function sendEmail() {
-          let name = document.getElementById("name").value;
+          let name = document.getElementById("Stacey").value;
           let message = document.getElementById("message").value;
           let recipient = "innobotomani@gmail.com";  // Change this to your email
 
           if (name && message) {
-              let subject = encodeURIComponent(`A Love Note from ${name}`);
+              let subject = encodeURIComponent(`A Love Note from ${Stacey}`);
               let body = encodeURIComponent(message);
               window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
           } else {
