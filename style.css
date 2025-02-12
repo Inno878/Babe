@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffcccc;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 50px;
+  }
+
+  .nav {
+    background: #ff4d4d;
+    padding: 15px;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+  }
+
+  .button {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+  }
